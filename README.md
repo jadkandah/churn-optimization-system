@@ -124,6 +124,10 @@ python3 src/explain.py
 python3 src/optimize.py
 python3 src/predict.py
 ```
+### For User-Interface
+```run
+streamlit run app.py
+```
 ---
 
 ## 🛠️ Tech Stack
