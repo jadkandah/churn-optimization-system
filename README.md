@@ -38,7 +38,6 @@ churn-optimization-system/
 ├── app.py
 ├── requirements.txt
 └── README.md
-
 ```
 
 ---
@@ -116,12 +115,14 @@ Supports real-time scoring for deployment.
 
 ```bash
 pip install -r requirements.txt
+```
+### Run
+```run
 python3 src/preprocessing.py
 python3 src/train.py
 python3 src/explain.py
 python3 src/optimize.py
 python3 src/predict.py
-
 ```
 ---
 
